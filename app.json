@@ -8,7 +8,7 @@
     "python",
     "pyrogram"
   ],
-  "repository": "https://github.com/ZauteKm/tg_idsbot",
+  "repository": "https://github.com/virtualunionsex/tg_idsbot",
   "website": "https://telegram.dog/tg_idsbot",
   "success_url": "https://t.me/tgbotsproject",
   "env": {
@@ -36,7 +36,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
