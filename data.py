@@ -37,7 +37,7 @@ class Data:
     START += "\n\nP.S ~ Your ID is `{}`"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an open source ID bot by @ZauteKm \n\nSupport Chat: [Join Now](https://t.me/iZaute/5) \n\nFramework: [Pyrogram](docs.pyrogram.org) \n\nLanguage: [Python](www.python.org) \n\nDeveloper: [Zaute Km](https://t.me/iZaute/6)"
+    ABOUT = "**About This Bot** \n\nThis is an open source ID bot by @azure_id \n\nSupport Chat: [Join Now](https://t.me/azure_id/5) \n\nFramework: [Pyrogram](docs.pyrogram.org) \n\nLanguage: [Python](www.python.org) \n\nDeveloper: [Azure Km](https://t.me/azure_id/6)"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
