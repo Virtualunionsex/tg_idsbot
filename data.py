@@ -24,7 +24,7 @@ class Data:
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
             START += (
-                f"\n\n▷ Made by ❤️ @ZauteKm"
+                f"\n\n▷ Made by ❤️ @azure_id"
             )
         else:
             print(
@@ -33,7 +33,7 @@ class Data:
             print("Quitting the bot")
             raise SystemExit
     else:
-        START += f"\n\nBy @ZauteKm"
+        START += f"\n\nBy @azure_id"
     START += "\n\nP.S ~ Your ID is `{}`"
 
     # About Message
@@ -42,7 +42,7 @@ class Data:
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
             ABOUT += (
-                f"\n\n▷ Please Subscribe ❤️ @ZauteKm"
+                f"\n\n▷ Please Subscribe ❤️ @nakama_asl"
             )
         else:
             print(
@@ -55,7 +55,7 @@ class Data:
     HELP = "**Help & Features** \n\n1) Send any message to get your ID. \n2) Forward any message from any user/bot/channel or anonymous admins to get ID. \n3) Send any sticker to get sticker id. \n4) Use Inline Mode to send your ID in any chat. \n5) Add in group / channel to get ID. \n6) Use /id command: \n- in private: To get ID through username \n- in group/channel: To get ID of that chat. \n\nMizo Version [Hmet Rawh](https://telegra.ph/Telegram-ID-Bot-Hmandan-03-16). \n\n▷Please Subscribe ❤️ @ZauteKm"
 
     # Source Code Message
-    SOURCE = '**Telegram Id Bot Source** \n\n• @tg_idsbot. \n\n<b>Source Code</b> [Click me](https://github.com/ZauteKm/tg_idsbot)'
+    SOURCE = '**Telegram Id Bot Source** \n\n• @tg_idsbot. \n\n<b>Source Code</b> [Click me](https://github.com/virtualunionsex/tg_idsbot)'
 
     # Home Button
     home_button = [[InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]]
@@ -66,8 +66,8 @@ class Data:
             InlineKeyboardButton("🖲️ Help", callback_data="help"),
             InlineKeyboardButton("About 🤖", callback_data="about"),
         ],
-        [InlineKeyboardButton("👥 Group", url="https://t.me/iZaute/5"),
-        InlineKeyboardButton("Channel 📢", url="https://t.me/iZaute/6")
+        [InlineKeyboardButton("👥 Group", url="https://t.me/nakama_asl/5"),
+        InlineKeyboardButton("Channel 📢", url="https://t.me/log_azure/6")
         ],
         [InlineKeyboardButton("🔰 Source Code -GitHub 🔰", callback_data="source")],
     ]
