@@ -20,7 +20,7 @@ class Config:
     API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")  # Change None to your API_HASH
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5636298682:AAFZGfJhMuUZGo98GlPvuXg-7Id3TXjh230")  # Change None to your BOT_TOKEN
     OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))  # Change 0 to your OWNER_ID
-    OWNER_NAME = os.environ.get("OWNER_NAME", "cyellaku")  # Change None to your OWNER_NAME
+    OWNER_NAME = os.environ.get("OWNER_NAME", "azure_id")  # Change None to your OWNER_NAME
 
     # For Local Deploys edit above 5 lines.
     # Put your API_ID and OWNER_ID (without comma) and API_HASH,BOT_TOKEN n OWNER_NAME (with commas) below.
